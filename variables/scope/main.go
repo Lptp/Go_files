@@ -14,7 +14,7 @@ func mas(x float64) float64 {
 func main() {
 	b := 17.0
 
-	mas := mas(b)
+	mas := mas(b) //EJEMPLO DE VARIABLE SHADOWING
 	fmt.Printf("%v \t %v \t %v \n", a, b, mas)
 	foo()
 }
@@ -22,6 +22,6 @@ func main() {
 func foo() {
 	b := 54.0
 
-	mas := mas(b)
-	fmt.Printf("%v \t %v \t %v \n", a, b, mas)
+	elev := mas(b) //EJEMPLO DE  NO VARIABLE SHADOWING
+	fmt.Printf("%v \t %v \t %v \n", a, b, elev)
 }
