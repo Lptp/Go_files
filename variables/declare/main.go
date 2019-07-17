@@ -1,7 +1,8 @@
 package main
 
 import "fmt"
-// Declare
+
+// Declare variables
 func main() {
 	var a int
 	var b string
