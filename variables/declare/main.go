@@ -1,7 +1,7 @@
 package main
 
 import "fmt"
-
+// Declare
 func main() {
 	var a int
 	var b string
